@@ -19,6 +19,21 @@ Imagine isso: você está prestes a lançar um serviço de limpeza de alto níve
 
 Prepare-se para liberar sua criatividade e perspicácia empresarial enquanto navega por este laboratório envolvente e interativo. Ao final deste exercício, você terá um conjunto abrangente de materiais que o colocarão no caminho para o sucesso empresarial. Vamos começar e tornar sua empresa de limpeza corporativa uma realidade!
 
+### Use o Copilot para explorar um documento e pesquisar uma ideia
+
+Para começar sua exploração da IA ​​generativa, vamos usar o Microsoft Copilot no Edge para examinar um documento existente e extrair alguns insights dele.
+
+1. No Microsoft Edge, navegue até [o OneDrive](https://onedrive.live.com) e `https://onedrive.live.com` entre usando sua conta pessoal da Microsoft, fechando todas as mensagens de boas-vindas ou ofertas exibidas.
+
+2. Em outra aba do navegador, abra o documento [Business Idea.docx](https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/raw/main/data/generative-ai/Business%20Idea.docx) de https://github.com/MicrosoftLearning/mslearn-ai-fundamentals/raw/main/data/generative-ai/Business%20Idea.docx. Então, quando o documento abrir no Edge, selecione a opção Editar uma cópia para copiar o documento para o seu OneDrive. O documento deve então abrir no Microsoft Word online automaticamente.
+
+Veja o texto no documento Ideia de Negócio , que descreve algumas ideias de alto nível para um negócio de limpeza na cidade de Nova York.
+Use o ícone do Copilot na barra de ferramentas do Edge para abrir o painel do Copilot, conforme mostrado aqui:
+
+![deia de Negócio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/generative-ai/edge-copilot.png}
+
+
+
 ## Explore Azure OpenAI
 
 ### Prepare-se para um projeto de desenvolvimento de IA
