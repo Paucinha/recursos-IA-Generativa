@@ -34,7 +34,7 @@ Para começar sua exploração da IA ​​generativa, vamos usar o Microsoft Co
 
 4. Use o ícone **do Copilot** na barra de ferramentas do Edge para abrir o painel do Copilot, conforme mostrado aqui:
 
-![deia de Negócio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/generative-ai/edge-copilot.png}
+![deia de Negócio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/generative-ai/edge-copilot.png)
 
 ## Explore Azure OpenAI
 
