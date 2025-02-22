@@ -1,0 +1,63 @@
+{
+    "id": "/subscriptions/f5f6088e-679a-4fc3-9a5d-600dcca616e6/resourceGroups/my-ai-resources/providers/Microsoft.MachineLearningServices/workspaces/my-ai-resources",
+    "name": "my-ai-resources",
+    "type": "Microsoft.MachineLearningServices/workspaces",
+    "location": "eastus2",
+    "tags": {},
+    "etag": null,
+    "properties": {
+        "friendlyName": "My ai resources",
+        "description": "",
+        "storageAccount": "/subscriptions/f5f6088e-679a-4fc3-9a5d-600dcca616e6/resourceGroups/my-ai-resources/providers/Microsoft.Storage/storageAccounts/myairesources1443265370",
+        "keyVault": "/subscriptions/f5f6088e-679a-4fc3-9a5d-600dcca616e6/resourceGroups/my-ai-resources/providers/Microsoft.KeyVault/vaults/myairesources2267902488",
+        "applicationInsights": null,
+        "hbiWorkspace": false,
+        "tenantId": "d2da6806-596c-4c79-bc66-2f3fc595a29c",
+        "imageBuildCompute": null,
+        "provisioningState": "Succeeded",
+        "managedNetwork": {
+            "isolationMode": "Disabled"
+        },
+        "allowRoleAssignmentOnRG": true,
+        "v1LegacyMode": false,
+        "softDeleteEnabled": false,
+        "creationTime": "2025-02-22T18:45:38.7207986Z",
+        "notebookInfo": {
+            "resourceId": "70f3289246674174ad8e666b98bb6d2a",
+            "fqdn": "ml-my-ai-resources-eastus2-dd39fc15-2e02-48e4-981c-8d3c160e0c46.eastus2.notebooks.azure.net",
+            "isPrivateLinkEnabled": false,
+            "notebookPreparationError": null
+        },
+        "storageHnsEnabled": false,
+        "workspaceId": "dd39fc15-2e02-48e4-981c-8d3c160e0c46",
+        "linkedModelInventoryArmId": null,
+        "privateLinkCount": 0,
+        "publicNetworkAccess": "Enabled",
+        "discoveryUrl": "https://eastus2.api.azureml.ms/discovery",
+        "mlFlowTrackingUri": "azureml://eastus2.api.azureml.ms/mlflow/v1.0/subscriptions/f5f6088e-679a-4fc3-9a5d-600dcca616e6/resourceGroups/my-ai-resources/providers/Microsoft.MachineLearningServices/workspaces/my-ai-resources",
+        "sdkTelemetryAppInsightsKey": "e1f7b545-6243-4abf-ba76-c5691d2edb62",
+        "workspaceHubConfig": {
+            "defaultWorkspaceResourceGroup": "/subscriptions/f5f6088e-679a-4fc3-9a5d-600dcca616e6/resourceGroups/rg-pauciarenan-6889_ai"
+        },
+        "enableDataIsolation": true
+    },
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "5b2a0dbe-9ba4-430b-bf5a-0a8ba5a262bd",
+        "tenantId": "d2da6806-596c-4c79-bc66-2f3fc595a29c"
+    },
+    "kind": "Hub",
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic"
+    },
+    "systemData": {
+        "createdAt": "2025-02-22T18:45:38.7207986Z",
+        "createdBy": "paucia.renan@gmail.com",
+        "createdByType": "User",
+        "lastModifiedAt": "2025-02-22T18:45:38.7207986Z",
+        "lastModifiedBy": "paucia.renan@gmail.com",
+        "lastModifiedByType": "User"
+    },
+    "apiVersion": "2023-04-01"
+}
