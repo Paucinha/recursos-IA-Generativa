@@ -60,25 +60,42 @@ Um *hub* de IA do Azure fornece um espaço de trabalho colaborativo dentro do qu
 2. No assistente **Criar um projeto**, insira um nome de projeto adequado para (por exemplo, `my-ai-project`) e revise os recursos do Azure que serão criados automaticamente para dar suporte ao seu projeto.
 3. Selecione **Personalizar** e especifique as seguintes configurações para seu hub:
 
-* Nome do hub : Um nome exclusivo - por exemplomy-ai-hub
-Assinatura : Sua assinatura do Azure
-Grupo de recursos : crie um novo grupo de recursos com um nome exclusivo (por exemplo, my-ai-resources) ou selecione um existente
-Localização : Selecione Ajude-me a escolher e, em seguida, selecione gpt-4 na janela do auxiliar de localização e use a região recomendada*
-Conecte o Azure AI Services ou o Azure OpenAI : crie um novo recurso do AI Services com um nome apropriado (por exemplo, my-ai-services) ou use um existente
-Conectar Azure AI Search : Pular conexão
+* **Nome do hub**: *Um nome exclusivo - por exemplo* `my-ai-hub`
+* **Assinatura**: *Sua assinatura do Azure*
+* **Grupo de recursos**: *crie um novo grupo de recursos com um nome exclusivo (por exemplo, `my-ai-resources`) ou selecione um existente*
+* **Localização**: Selecione **Ajude-me a escolher** e, em seguida, selecione **gpt-4** na janela do auxiliar de localização e use a região recomendada*
+* **Conecte o Azure AI Services ou o Azure OpenAI**: *crie um novo recurso do AI Services com um nome apropriado (por exemplo, `my-ai-services`) ou use um existente*
+* **Conectar Azure AI Search**: Pular conexão
 
+:exclamation: * Os recursos do Azure OpenAI são limitados no nível do locatário por cotas regionais. No caso de um limite de cota ser atingido posteriormente no exercício, há uma possibilidade de você precisar criar outro recurso em uma região diferente.
 
+4. Selecione **Next** e revise sua configuração. Depois, selecione **Create** e aguarde a conclusão do processo.
+5. Quando seu projeto for criado, feche todas as dicas exibidas e revise a página do projeto no portal do Azure AI Foundry, que deve ser semelhante à seguinte imagem:
 
+![any text](https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/media/ai-foundry-project.png)
 
-5. Selecione Next e revise sua configuração. Depois, selecione Create e aguarde a conclusão do processo.
-Quando seu projeto for criado, feche todas as dicas exibidas e revise a página do projeto no portal do Azure AI Foundry, que deve ser semelhante à seguinte imagem:
+6. Na parte inferior do painel de navegação à esquerda, selecione **Management center**. O management center é onde você pode configurar as definições nos níveis de *hub* e *projeto*; ambos mostrados no painel de navegação.
 
+![any text](https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/media/ai-foundry-management.png)
 
+Observe que no painel de navegação, você pode visualizar e gerenciar ativos de nível de hub e projeto nas seguintes páginas:
 
+* Visão geral
+* Usuários
+* Modelos e endpoints
+* Recursos conectados
+* Computação ( *somente nível de hub* )
 
+:exclamation: **Observação**: dependendo das permissões atribuídas ao seu Entra ID no seu locatário do Azure, talvez você não consiga gerenciar recursos no nível do hub.
 
+7. No painel de navegação, na seção do seu hub, selecione a página **Visão geral** para visualizar detalhes do seu hub.
+8. No painel **Propriedades do Hub**, selecione o link para o grupo de recursos associado ao hub para abrir uma nova guia do navegador e navegar até o portal do Azure. Entre com suas credenciais do Azure, se solicitado.
 
+9. Veja o grupo de recursos no portal do Azure para ver os recursos do Azure que foram criados para dar suporte ao seu hub e projeto.
 
+![any text](https://microsoftlearning.github.io/mslearn-ai-studio/Instructions/media/azure-portal-resources.png)
+
+Observe que os recursos foram criados na região que você selecionou ao criar o hub.
 
 
 
